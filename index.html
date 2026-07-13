@@ -57,7 +57,7 @@
 <style>h3{color:#ffba00}.list-2-col{columns:2;-webkit-columns:2;-moz-columns:2}.bordered-table{border-collapse:collapse;width:100%}.bordered-table td,.bordered-table th{border:1px solid #fff;text-align:left}</style>
 <script id="site-script" data-basepath="./" data-game-type="roulette" data-theme="247" data-ga="G-KB6CQJKPTG">
 	"use strict";(()=>{var e=games247.ads,a={mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"ix",params:{size:[300,250],siteId:"677281"}},{bidder:"minutemedia",params:{org:"01j4q0g7qegp"}},{bidder:"onetag",params:{pubId:"7295959fbf2dd3c",ext:{placement_name:"247roulette_Desktop_Rectangle"}}},{bidder:"pubmatic",params:{publisherId:"158397",adSlot:"247roulette_Desktop_Rectangle"}},{bidder:"ttd",params:{supplySourceId:"direct426mx9fc",publisherId:"1"}},{bidder:"rise",params:{org:"62d037f99766d400014b921f"}},{bidder:"vidazoo",params:{cId:"66b0ea53077feb8d85703cea",pId:"59ac17c192832d0011283fe3"}},{bidder:"openx",params:{unit:"544066269",delDomain:"games-lcc-d.openx.net"}},{bidder:"sovrn",params:{tagid:"899529"}},{bidder:"smartadserver",params:{domain:"https://prg.smartadserver.com",siteId:511148,pageId:1608420,formatId:113356}},{bidder:"kueezrtb",params:{cId:"677cf43dc4786d209f5e3b16",pId:"65lk7c192882r0011813fn9"}},{bidder:"sonobi",params:{placement_id:"9fcada9b42462569edba"}},{bidder:"unruly",params:{siteId:294049}}]};e.createSlot({path:"247roulette_mrec_right_1",unit:a,autoRefresh:{enabled:!0},mobile:!1}),e.createSlot({path:"247roulette_mrec_right_2",unit:a,autoRefresh:{enabled:!0},mobile:!1}),e.adBreakConfig.slot1={path:"247roulette_mrec_break_1",unit:a,adExpansion:{desktop:"default",mobile:!1}},e.adBreakConfig.slot2={path:"247roulette_mrec_break_2",unit:a,adExpansion:{desktop:"default",mobile:!1}},e.adBreakConfig.slot3={path:"247roulette_mrec_break_3",unit:a,adExpansion:{desktop:"default",mobile:!1},mobile:!1},e.createSpace({id:"div-ad-space-BasicVideo_Right_1",type:"BasicPrimisVideoAdSpace",mobile:!1})})(),games247.siteSupport.onFirstInput=()=>{games247.privacy.init(()=>{games247.privacy.cmpLoaded&&(games247.analytics.init(),games247.ads.init(()=>{games247.ads.isDesktop?(gtag("event","desktop_ads_init"),1===games247.ads.blocker.detected?gtag("event","desktop_ads_blocker_active"):(gtag("event","desktop_ads_blocker_inactive"),window.matchMedia("(max-height: 775px)").matches?gtag("event","desktop_ads_right_2"):gtag("event","desktop_ads_right_3"))):(gtag("event","mobile_ads_init"),1===games247.ads.blocker.detected?gtag("event","mobile_ads_blocker_active"):gtag("event","mobile_ads_blocker_inactive"))}))})},games247.gameSupport.ready()</script>
-<script>"use strict";(()=>{var t,e,a,n=window.games247,s=self,i=document,r=(i.documentElement,"setAttribute"),d="getAttribute",o="EventListener",l="add"+o,m="remove"+o,p="getElementById",c="load",u="error",h=localStorage,g=!1,y=!1,f="com.games247.FeatureAd",o=i[p]("site-script"),L=o[d]("data-basepath"),S=o[d]("data-game-type"),I=o[d]("data-theme"),o="com.games247.storage-test",d="1",v=i[p]("preloader"),w=i.createElement("script");try{h.setItem(o,d),h.getItem(o)!=d?h=null:h.removeItem(o)}catch(e){h=null}if(!h){h=sessionStorage;try{h.setItem(o,d),h.getItem(o)!=d?h=null:h.removeItem(o)}catch(e){h=null}}var h=h||{length:0,k:[],d:{},key:function(e){return 0<=e&&e<this.length?this.k[e]:null},getItem:function(e){return this.d.hasOwnProperty(e)?this.d[e]:null},setItem:function(e,t){this.d.hasOwnProperty(e)||(this.length=this.k.push(e)),this.d[e]=t+""},clear:function(){this.k.length=this.length=0,this.d=0},removeItem:function(e){this.d.hasOwnProperty(e)&&(this.length--,this.k.splice(this.k.indexOf(e),1),delete this.d[e])}},O=!(n.FeatureAd=t={init:function(){try{this.state=JSON.parse(h.getItem(f))||{}}catch(e){this.state={}}(a=this.state).version=a.version||3,a.totalTimesOpened=a.totalTimesOpened||0,a.timesOpenedSinceLastAd=a.timesOpenedSinceLastAd||0,a.totalAdsShown=a.totalAdsShown||0,"number"!=typeof a.adIndex&&(a.adIndex=-1),a.totalTimesOpened++,a.timesOpenedSinceLastAd++,h.setItem(f,JSON.stringify(a)),this.isNeeded=2<a.timesOpenedSinceLastAd,this.isNeeded&&(y=!0,e=i[p]("feature-ad-holder"),i[p]("feature-ad-img").style.visibility="hidden",i[p]("feature-ad-img").style.opacity=0,e.style.display="block",(a=document.createElement("script")).async=a.defer=!0,a.src="https://www.247games.com/feature-lineup/FeatureLineup.v2.js",a.onload=a.onerror=a.onabort=a.ontimeout=function(e){e.type!=c||0==(e=window.adLineup=window.generateFeatureAdLineup({gameType:S,theme:I})).length?t.close():(a=t.state.adIndex,(a=(a=t.state.adLineupVersion!==s.adLineupVersion?-1:a)<0?0:a)>=e.length&&(a=0),t.data=e[a],t.state.timesOpenedSinceLastAd=0,t.state.totalAdsShown++,t.state.adIndex=a+1,t.state.adLineupVersion=s.adLineupVersion,t.state.adIndex>=e.length&&(t.state.adIndex=0),h.setItem(f,JSON.stringify(t.state)),i[p]("feature-ad-img").src=t.data.imageURL,i[p]("feature-ad-img").style.removeProperty("visibility"),i[p]("feature-ad-img").style.removeProperty("opacity"))},document.head.appendChild(a))},close:function(){y=!1,e.style.display="none",g&&(g=!1,w.startGame())},click:function(){s.open(t.data.linkURL,"_blank")}}),b=!1;n.embed=function(){function t(){v.classList.add(u),i[p]("preloader-msg").innerHTML="Loading error. Press here to retry."}function a(e){w[m](c,a),w[m](u,a),e.type==u?t():w.loadGame()}O=!0,n.gameSupport.isReady&&!b&&(b=!0,v=i[p]("preloader"),w=i.createElement("script"),i[p]("app-player").oncontextmenu=function(e){return e.cancelable&&e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation(),!1},w[r]("id","game-script"),w[r]("data-theme",I),w[r]("data-basepath",L),n.gameSupport.flags&&0<n.gameSupport.flags.length&&w[r]("data-flags",n.gameSupport.flags.join(",")),w[l](c,a),w[l](u,a),w.onGameLoaded=function(){y?g=!0:w.startGame()},w.onGameLoadError=t,w.src=L+"game/js/main.js?v=1778607575905",i.head.appendChild(w),v[l]("click",function(){v.classList.contains(u)&&location.reload()}))},n.gameSupport.ready=function(){n.gameSupport.isReady=1,O&&n.embed()},n.gameSupport.isReady&&n.gameSupport.ready()})()</script>
+<script>"use strict";(()=>{var t,e,a,n=window.games247,s=self,i=document,r=(i.documentElement,"setAttribute"),d="getAttribute",o="EventListener",l="add"+o,m="remove"+o,p="getElementById",c="load",u="error",h=localStorage,g=!1,y=!1,f="com.games247.FeatureAd",o=i[p]("site-script"),L=o[d]("data-basepath"),S=o[d]("data-game-type"),I=o[d]("data-theme"),o="com.games247.storage-test",d="1",v=i[p]("preloader"),w=i.createElement("script");try{h.setItem(o,d),h.getItem(o)!=d?h=null:h.removeItem(o)}catch(e){h=null}if(!h){h=sessionStorage;try{h.setItem(o,d),h.getItem(o)!=d?h=null:h.removeItem(o)}catch(e){h=null}}var h=h||{length:0,k:[],d:{},key:function(e){return 0<=e&&e<this.length?this.k[e]:null},getItem:function(e){return this.d.hasOwnProperty(e)?this.d[e]:null},setItem:function(e,t){this.d.hasOwnProperty(e)||(this.length=this.k.push(e)),this.d[e]=t+""},clear:function(){this.k.length=this.length=0,this.d=0},removeItem:function(e){this.d.hasOwnProperty(e)&&(this.length--,this.k.splice(this.k.indexOf(e),1),delete this.d[e])}},O=!(n.FeatureAd=t={init:function(){try{this.state=JSON.parse(h.getItem(f))||{}}catch(e){this.state={}}(a=this.state).version=a.version||3,a.totalTimesOpened=a.totalTimesOpened||0,a.timesOpenedSinceLastAd=a.timesOpenedSinceLastAd||0,a.totalAdsShown=a.totalAdsShown||0,"number"!=typeof a.adIndex&&(a.adIndex=-1),a.totalTimesOpened++,a.timesOpenedSinceLastAd++,h.setItem(f,JSON.stringify(a)),this.isNeeded=2<a.timesOpenedSinceLastAd,this.isNeeded&&(y=!0,e=i[p]("feature-ad-holder"),i[p]("feature-ad-img").style.visibility="hidden",i[p]("feature-ad-img").style.opacity=0,e.style.display="block",(a=document.createElement("script")).async=a.defer=!0,a.src="https://www.247games.com/feature-lineup/FeatureLineup.v2.js",a.onload=a.onerror=a.onabort=a.ontimeout=function(e){e.type!=c||0==(e=window.adLineup=window.generateFeatureAdLineup({gameType:S,theme:I})).length?t.close():(a=t.state.adIndex,(a=(a=t.state.adLineupVersion!==s.adLineupVersion?-1:a)<0?0:a)>=e.length&&(a=0),t.data=e[a],t.state.timesOpenedSinceLastAd=0,t.state.totalAdsShown++,t.state.adIndex=a+1,t.state.adLineupVersion=s.adLineupVersion,t.state.adIndex>=e.length&&(t.state.adIndex=0),h.setItem(f,JSON.stringify(t.state)),i[p]("feature-ad-img").src=t.data.imageURL,i[p]("feature-ad-img").style.removeProperty("visibility"),i[p]("feature-ad-img").style.removeProperty("opacity"))},document.head.appendChild(a))},close:function(){y=!1,e.style.display="none",g&&(g=!1,w.startGame())},click:function(){s.open(t.data.linkURL,"_blank")}}),b=!1;n.embed=function(){function t(){v.classList.add(u),i[p]("preloader-msg").innerHTML="Loading error. Press here to retry."}function a(e){w[m](c,a),w[m](u,a),e.type==u?t():w.loadGame()}O=!0,n.gameSupport.isReady&&!b&&(b=!0,v=i[p]("preloader"),w=i.createElement("script"),i[p]("app-player").oncontextmenu=function(e){return e.cancelable&&e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation(),!1},w[r]("id","game-script"),w[r]("data-theme",I),w[r]("data-basepath",L),n.gameSupport.flags&&0<n.gameSupport.flags.length&&w[r]("data-flags",n.gameSupport.flags.join(",")),w[l](c,a),w[l](u,a),w.onGameLoaded=function(){y?g=!0:w.startGame()},w.onGameLoadError=t,w.src=L+"game/js/main2.js?v=1778607575905",i.head.appendChild(w),v[l]("click",function(){v.classList.contains(u)&&location.reload()}))},n.gameSupport.ready=function(){n.gameSupport.isReady=1,O&&n.embed()},n.gameSupport.isReady&&n.gameSupport.ready()})()</script>
 </head>
 <body>
 <div id="site">
@@ -128,6 +128,91 @@
 </div>
 </div>
 <script>self.games247.FeatureAd.init()</script>
+</div>
+<div class="middle">
+<div id="content">
+<div class="section">
+<h1 class="section-header">Roulette 247 - How to Play Roulette</h1>
+<div class="section-body">
+<style>h3{color:#ffba00}</style>
+</div>
+</div>
+<div class="section">
+<h2 class="section-header" id="instructions">Roulette Game Strategy</h2>
+<div class="section-body">
+<ul>
+</ul>
+</div>
+</div>
+<div class="section">
+<h2 class="section-header" id="themes">
+Seasonal Roulette Games
+</h2>
+<div class="section-body">
+<div class="game-links">
+</div>
+</div>
+</div>
+<div class="section">
+<h2 class="section-header" id="more-games">More Games</h2>
+<div class="section-body">
+<div class="game-links">
+</div>
+</div>
+</div>
+<div class="section">
+<h2 class="section-header" id="news">Roulette News</h2>
+<div class="section-body">
+<div class="news-links">
+</div>
+</div>
+</div>
+<div class="section">
+<h2 class="section-header" id="disclaimer">Disclaimer</h2>
+<div class="section-body">
+<p>
+DISCLAIMER: The games on this website are using PLAY (fake) money. No payouts will be awarded, there are no "winnings", as all games represented by 247 Games LLC are free to play. Play strictly for fun.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div class="left">
+</div>
+<div class="right">
+<div class="aspace-300x169">
+<div id="div-ad-space-BasicVideo_Right_1"></div>
+</div>
+
+<div class="aspace-300x250">
+<div id="div-gpt-ad-247roulette_mrec_right_1"></div>
+</div>
+<div class="aspace-300x250">
+<div id="div-gpt-ad-247roulette_mrec_right_2"></div>
+</div>
+</div>
+</main>
+<footer>
+<div class="footer-links">
+</div>
+</footer>
+</div>
+<div id="expfs-scroll"></div>
+<div id="expfs-pct"></div>
+<div id="expfs-vh"></div>
+<div id="expfs-fixed"></div>
+<div id="expfs-msg">
+<div style="position:absolute;top:20px;left:0;width:100%;transform:translate(0,0)">
+Swipe up for fullscreen</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-32 -32 64 64" style="position:absolute;top:-20px;left:50%;transform:translate(-50%,0);width:100%;max-height:30vh;-webkit-animation:1.5s ease-in-out 0s infinite running expfs_hand;animation:1.5s ease-in-out 0s infinite running expfs_hand;-webkit-animation:expfs_hand 1.5s ease-in-out infinite 0s">
+<path style="fill:none;stroke:#0ff;stroke-width:1" d="
+		M -4 5
+		A 6 6 0 1 1 5 3
+		"></path>
+<path style="fill:rgba(255,255,255,.3);stroke:#fff;stroke-miterlimit:10" d="M 7.796 12 L 7.796 8.902 C 7.796 8.902 7.796 7.354 9.344 7.354 C 10.892 7.354 10.892 8.902 10.892 8.902 L 10.892 16.257 C 10.892 16.257 11.667 23.998 3.926 23.998 C 3.926 23.998 1.079 24.149 -1.493 21.676 L -6.912 15.483 C -6.912 15.483 -8.46 13.934 -6.912 12.386 C -6.912 12.386 -5.751 11.224 -3.815 13.16 L -2.472 14.504 C -2.111 14.865 -1.493 14.609 -1.493 14.099 L -1.493 1.548 C -1.493 1.548 -1.493 0 0.056 0 C 1.604 0 1.604 1.548 1.604 1.548 L 1.604 12 L 1.604 7.354 C 1.604 7.354 1.604 5.805 3.152 5.805 C 4.701 5.805 4.701 7.354 4.701 7.354 L 4.701 12 L 4.701 8.128 C 4.701 8.128 4.701 6.58 6.248 6.58 C 7.796 6.58 7.796 8.128 7.796 8.128 L 7.796 12 Z"></path>
+</svg>
+<div id="expfs_cancel-btn">play without fullscreen</div>
+</div>
 </div>
 </body>
 </html>
